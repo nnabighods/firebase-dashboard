@@ -1,7 +1,6 @@
 import {ref as databaseRef, get, set, update} from 'firebase/database';
 import {db} from './libs/firebase/firebaseConfig';
 import {seedReadCard} from './templates/seedReadCard';
-import {onRemoveSeed} from './templates/seedReadCard';
 
 async function pageInit(){
     const seedRef = databaseRef(db, 'seed/');
@@ -20,4 +19,3 @@ async function pageInit(){
 }
 
 pageInit();
-onRemoveSeed();
