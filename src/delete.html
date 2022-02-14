@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">  
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="module" src="js/delete.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" defer></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <header class="bg-white shadow">
+        <div class="navbar navbar-light sticky-top bg-white flex-md-nowrap p-0 justify-content-between">
+            <a class="navbar-brand bg-primary col-md-3 col-lg-2 me-0 px-3 py-2 text-white d-flex justify-content-start" href="#">
+              <svg id="logo-38" width="50" viewBox="0 0 78 32" class="me-2" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M55.5 0H77.5L58.5 32H36.5L55.5 0Z" class="ccustom" fill="#FF7A00"></path> <path d="M35.5 0H51.5L32.5 32H16.5L35.5 0Z" class="ccompli1" fill="#FF9736"></path> <path d="M19.5 0H31.5L12.5 32H0.5L19.5 0Z" class="ccompli2" fill="#FFBC7D"></path></svg>
+              Seeder
+            </a>
+            <button class="navbar-toggler d-md-none collapsed me-3" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="toggle button">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+          <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-primary sidebar collapse">
+            <div class="position-sticky pt-3">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link text-white" aria-current="page" href="#">
+                    <span data-feather="home"></span>
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">
+                    <span data-feather="file"></span>
+                    Reports
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="index.html">
+                    <span data-feather="shopping-cart"></span>
+                    Products
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">
+                    <span data-feather="users"></span>
+                    Customers
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">
+                    <span data-feather="bar-chart-2"></span>
+                    Overview
+                  </a>
+                </li>
+              </ul>
+      
+              <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-white-50">
+                <span>Inventory</span>
+              </h6>
+              <ul class="nav flex-column mb-2">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="write.html">
+                    <span data-feather="plus"></span>
+                    Add Product
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      
+          <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+              <h1 class="h2">Delete Product</h1>
+            </div>
+
+          </main>
+        </div>
+      </div>
+    <script>
+    feather.replace()
+    </script>
+</body>
+</html>

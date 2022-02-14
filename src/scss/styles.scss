@@ -1,0 +1,34 @@
+#sidebarMenu {
+    .active {
+        text-decoration: underline;
+        text-underline-position: under;
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        &:hover {
+            text-decoration: underline;
+            text-underline-position: under;
+        }
+    }
+
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+#product-cards {
+    img {
+        object-fit: cover;
+    }
+    p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
